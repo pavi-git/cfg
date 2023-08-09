@@ -1,0 +1,29 @@
+[global_config]
+  window_state = maximise
+  borderless = True
+  inactive_color_offset = 0.7083333333333334
+  inactive_bg_color_offset = 0.7083333333333334
+[keybindings]
+  close_term = <Primary>w
+  close_window = <Primary>q
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_darkness = 0.75
+    background_type = transparent
+    font = Monospace 13
+    foreground_color = "#33d17a"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    use_system_font = False
+    title_hide_sizetext = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

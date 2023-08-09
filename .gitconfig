@@ -1,0 +1,9 @@
+[user]
+	name = pavi-git
+	email = 120742184+pavi-git@users.noreply.github.com
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[core]
+	editor = codium --wait

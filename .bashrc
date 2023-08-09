@@ -1,5 +1,4 @@
 # .bashrc
-
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
@@ -26,13 +25,10 @@ fi
 
 unset rc
 
-#aliases
-alias la="ls -la"
-alias rd="rm -rfv"
-#directories
-alias doc="cd ~/Documents/"
-alias repo="cd ~/Documents/repos"
-
+#alias file checking  condition
+if [ -f ~/.bash_aliases ]; then
+. ~/.bash_aliases
+fi
 
 #for powerline-shell
 function _update_ps1() {
@@ -43,5 +39,5 @@ if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
 
-# bash start commands
-alias cfg='/usr/bin/git --git-dir=$HOME/cfg --work-tree=$HOME'
+# start  up commands
+
