@@ -1,22 +1,25 @@
 [global_config]
   window_state = maximise
   borderless = True
-  inactive_color_offset = 0.7083333333333334
-  inactive_bg_color_offset = 0.7083333333333334
+  inactive_color_offset = 0.65
+  inactive_bg_color_offset = 0.65
 [keybindings]
   close_term = <Primary>w
   close_window = <Primary>q
 [profiles]
   [[default]]
     icon_bell = False
-    background_darkness = 0.75
+    background_darkness = 0.72
     background_type = transparent
-    font = Monospace 13
-    foreground_color = "#33d17a"
+    font = Monospace 12
+    foreground_color = "#2ec27e"
     show_titlebar = False
     scrollbar_position = hidden
+    scroll_on_keystroke = False
     scrollback_infinite = True
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
     use_system_font = False
+    bold_is_bright = True
     title_hide_sizetext = True
 [layouts]
   [[default]]
@@ -26,4 +29,5 @@
     [[[child1]]]
       type = Terminal
       parent = window0
+      profile = default
 [plugins]
