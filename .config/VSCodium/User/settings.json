@@ -2,7 +2,7 @@
   "workbench.startupEditor": "none",
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 1,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "files.autoSave": "onFocusChange",
   "editor.minimap.autohide": true,
   "editor.minimap.scale": 2,
@@ -16,5 +16,6 @@
   "editor.guides.bracketPairsHorizontal": true,
   "editor.language.colorizedBracketPairs": [],
   "window.newWindowDimensions": "maximized",
-  "reactSnippets.settings.prettierEnabled": true
+  "reactSnippets.settings.prettierEnabled": true,
+  "workbench.colorTheme": "GitHub Dark Default"
 }
